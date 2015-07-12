@@ -1,0 +1,62 @@
+@import "bootstrap";
+@import "variables";
+
+
+
+/* ======================================================
+Global styles
+========================================================= */
+
+body {
+    color:$text-normal;
+    background:$bg-dark; //--background of entire page same as footer in case content is too short
+    padding-top:50px;//--to avoid navbar
+}
+
+h1,
+h2,
+h3,
+.page-title {
+    color:#4d4d4d;
+    font-size:1.4em;
+    text-transform: uppercase;
+    margin:0 0 22px;
+}
+
+.container-fluid {
+    max-width:1200px;
+}
+
+.container-wrapper {
+    background:#fff;
+
+    > .container-fluid {
+        padding-top:15px;
+        padding-bottom:15px;
+    }
+}
+
+
+/* ======================================================
+Bootstrap overrides
+========================================================= */
+
+
+
+.img-responsive {
+    width:100%;
+}
+
+/* ======================================================
+Components
+========================================================= */
+@import "components/header";
+@import "components/footer";
+@import "components/forms";
+@import "components/buttons";
+
+/* ======================================================
+Specific layouts
+========================================================= */
+
+@import "layouts/home";

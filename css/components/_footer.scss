@@ -1,0 +1,27 @@
+
+.footer {
+
+    a,
+    a:visited {
+        color:$text-light;
+    }
+
+    a:hover,
+    a:active {
+        color:darken($text-light,20%);
+        text-decoration: none;
+    }
+
+    p {
+        color:$text-light;
+    }
+}
+
+.footer__col {
+    margin-bottom:60px;
+}
+
+.footer-wrapper {
+    background:$bg-dark;
+    padding:30px 0;
+}
