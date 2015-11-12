@@ -3,7 +3,7 @@
 
 
 <div class="hero">
-    <img src="images/bd-ship.png" alt="The Blue Dwarf spaceship" class="bd-ship">
+    <img src="images/bd-ship.png" alt="The Blue Dwarf spaceship" class="bd-ship animated animated-delay fadeInLeft">
 
 
 </div>
