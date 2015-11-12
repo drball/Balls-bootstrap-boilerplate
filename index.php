@@ -17,13 +17,14 @@
 
             </div>
             <div class="col-sm-6">
-                <p>We welcome new members so if you’re a fan of Red Dwarf &amp; enjoy writing please join us!</p>
+                <p>You’ll love this game if you’re a fan of Red Dwarf, like quirky scifi plots and enjoy writing.</p>
+                <p>We welcome new members so please join us!</p>
             </div>
         </div>
 
         <div class="text-center">
             <div class="joinBtnWrapper">
-                <a href="http://www.ongoingworlds.com/games/270" class="btn joinBtn">Read posts, &amp; join</a>
+                <a href="http://www.ongoingworlds.com/games/270" class="btn joinBtn">Read posts &amp; join</a>
             </div>
         </div>
 
