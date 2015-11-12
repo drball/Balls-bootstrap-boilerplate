@@ -1,9 +1,10 @@
 .navbar {
-    background:$bg-dark;
+    background:$bg-light;
     border-radius: 0 !important;
     border:0;
     margin:0;
     height:50px;
+    z-index: 1;
 }
 
 .navbar-nav {
@@ -16,4 +17,50 @@
     .navbar-nav {
         float: right;
     }
+}
+
+/* ======================================================
+Logo
+========================================================= */
+
+.logo {
+    width:126px;
+    height:auto;
+    margin-left:0;
+    padding:0;
+    z-index:100;
+    position: relative;
+}
+
+.navbar__tall {
+    height:85px;
+    background:$bg-light;
+    width:30%;
+    min-width: 130px;
+    position: absolute;
+    top:0;
+    left:0;
+
+    &:after {
+        display: block;
+        content:" ";
+        transform: rotate(45deg);
+        position: absolute;
+        bottom:10px;
+        left:calc(100% - 25px);
+        background:blue;
+        width:50px;
+        height:50px;
+        background:$bg-light;
+    }
+}
+
+/* ======================================================
+Social plugins in header
+========================================================= */
+
+.navbar .socialBtns {
+    position: absolute;
+    top:13px;
+    right:15px;
 }

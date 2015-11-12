@@ -1,9 +1,22 @@
 /* ======================================================
-Variables
+Paths
 ========================================================= */
-$text-normal:#8d8886;
+$images-path: "/images";
+
+
+
+
+/* ======================================================
+Style variables
+========================================================= */
+$alt-color: #ffe154;
 $text-light:#fff;
-$bg-dark: #222;
+$text-normal:$text-light;
+$text-dark:#213163;
+$bg-dark: #213163 url(#{$images-path}/bluemetal.jpg) repeat;
+$bg-light: #fff;
+$default-padding: 15px;
+$transition-time:200ms;
 
 /* ======================================================
 Break points
@@ -16,7 +29,3 @@ $screen-sm-max: 767px;
 $screen-md-max: 991px;
 $screen-lg-max: 1199px;
 
-/* ======================================================
-Useful variables
-========================================================= */
-$images-path: "/images";

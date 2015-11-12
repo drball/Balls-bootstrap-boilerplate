@@ -9,10 +9,18 @@ Global styles
 
 body {
     color:$text-normal;
-    background:$bg-dark; //--background of entire page same as footer in case content is too short
-    padding-top:50px;//--to avoid navbar
+    background:#000;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
+@media (min-width: $screen-sm-min) {
+    body {
+        font-size: 22px;
+    }
+}
 h1,
 h2,
 h3,
@@ -23,18 +31,70 @@ h3,
     margin:0 0 22px;
 }
 
+p {
+    margin-bottom:25px;
+}
+
 .container-fluid {
-    max-width:1200px;
+    max-width:900px;
 }
 
 .container-wrapper {
-    background:#fff;
+    border-top:4px solid #666;
+    background:$bg-dark;
+    position: relative;
+    z-index: 10;
 
     > .container-fluid {
-        padding-top:15px;
-        padding-bottom:15px;
+        padding-top:35px;
+        padding-bottom:30px;
     }
 }
+
+
+.bg {
+    background:#000 url(#{$images-path}/orange-space.jpg) no-repeat top;
+    background-size: cover;
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: 0;
+}
+
+::selection {
+    background: $alt-color; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background: $alt-color; /* Gecko Browsers */
+}
+
+@media (min-height: 500px) {
+
+    .docked-bottom {
+        position: fixed;
+        bottom:0;
+        left:0;
+        right:0;
+    }
+
+}
+
+/* ======================================================
+Social sharing plugins
+========================================================= */
+.socialBtns {
+    text-align:right;
+    line-height: 1em;
+
+    .socialBtn {
+        display:inline;
+        margin: 0 15px;
+        line-height: 1em;
+    }
+}
+
 
 
 /* ======================================================
