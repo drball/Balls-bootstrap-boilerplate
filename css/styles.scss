@@ -42,8 +42,9 @@ h3 {
     text-align: right;
     text-transform: uppercase;
     border-bottom:7px solid #eaeaea;
-    font-weight: bold;
     padding-bottom:10px;
+    font-size:80%;
+    font-weight: bold;
 }
 
 p {
@@ -51,7 +52,7 @@ p {
 }
 
 .large-text {
-    font-size: 122%;
+    font-size: 125%;
     text-transform: uppercase;
 }
 
@@ -99,18 +100,7 @@ p {
     background: $alt-color; /* Gecko Browsers */
 }
 
-@media (min-height: 500px) {
 
-    .docked-bottom {
-        position: fixed;
-        bottom:0;
-        left:0;
-        right:0;
-        display:table-cell;
-        min-height:42%;
-    }
-
-}
 
 /* ======================================================
 Social sharing plugins
@@ -145,6 +135,7 @@ Components
 @import "components/footer";
 @import "components/forms";
 @import "components/buttons";
+@import "components/caption";
 @import "components/animations";
 
 /* ======================================================
@@ -152,3 +143,26 @@ Specific layouts
 ========================================================= */
 
 @import "layouts/home";
+
+
+.parallax {
+    perspective: 1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: cyan;
+}
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: red;
+}
+.parallax__layer--base {
+    transform: translateZ(0);
+    background: yellow;
+}
+.parallax__layer--back {
+    transform: translateZ(-1px);
+}

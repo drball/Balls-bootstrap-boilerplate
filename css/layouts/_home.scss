@@ -6,6 +6,7 @@
     font-size:150%;
     transition: color $transition-time, background $transition-time;
     text-decoration: none;
+    text-transform: uppercase;
 
     &:hover,
     &:focus {
