@@ -3,7 +3,7 @@
     display:inline-block;
     border-radius: 0;
     padding:10px 20px;
-    font-size:135%;
+    font-size:150%;
     transition: color $transition-time, background $transition-time;
     text-decoration: none;
 
@@ -55,6 +55,7 @@ hero with ship inside
     padding:0 20px;
     text-align: center;
     position: relative;
+    transition: height $transition-time;
 }
 
 @media (min-width: $screen-sm-min) {

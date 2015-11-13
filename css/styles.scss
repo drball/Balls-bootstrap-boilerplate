@@ -8,12 +8,11 @@ Global styles
 ========================================================= */
 
 body {
-    color:$text-normal;
+    color:$text-dark;
     background:#000;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-size: 14px;
+
 }
 
 @media (min-width: $screen-sm-min) {
@@ -23,31 +22,61 @@ body {
 }
 h1,
 h2,
-h3,
-.page-title {
-    color:#4d4d4d;
+h3 {
     font-size:1.4em;
     text-transform: uppercase;
     margin:0 0 22px;
+    font-weight: bold;
+}
+.section-title {
+    color:#4d4d4d;
+    font-size:1.4em;
+    text-align: right;
+    margin:0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sub-title {
+    color:#4d4d4d;
+    text-align: right;
+    text-transform: uppercase;
+    border-bottom:7px solid #eaeaea;
+    font-weight: bold;
+    padding-bottom:10px;
 }
 
 p {
     margin-bottom:25px;
 }
 
+.large-text {
+    font-size: 122%;
+    text-transform: uppercase;
+}
+
 .container-fluid {
     max-width:900px;
 }
 
-.container-wrapper {
-    border-top:4px solid #666;
+.dark-bg {
     background:$bg-dark;
+}
+
+.container-wrapper {
+    background:$bg-light url(#{$images-path}/whitemetal.jpg);
     position: relative;
     z-index: 10;
 
     > .container-fluid {
         padding-top:35px;
         padding-bottom:30px;
+    }
+
+    &.container-wrapper--dark {
+        @extend .dark-bg;
+        border-top:4px solid #666;
+        color:$text-light;
     }
 }
 

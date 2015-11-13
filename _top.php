@@ -35,6 +35,7 @@
 
     <nav class="navbar">
         <div class="container-fluid">
+            <h1 class="sr-only">Blue Dwarf - a play-by-post roleplaying game</h1>
             <img class="logo" src="images/logo.png" alt="Blue Dwarf">
         </div>
 
