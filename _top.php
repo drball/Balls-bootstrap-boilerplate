@@ -19,10 +19,14 @@
 
     <meta property="og:title" content="Blue Dwarf" />
     <meta property="og:site_name" content="Blue Dwarf" />
-    <meta property="og:description" content="A text-based roleplaying game based on Red Dwarf" />
+    <meta property="og:description" content="A text-based roleplaying game based on Red Dwarf, and played on OngoingWorlds" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://bluedwarf.co.uk" />
     <meta property="og:image" content="http://bluedwarf.co.uk/images/fb-like.jpg" />
+
+    <meta name="author" content="David Ball">
+    <meta name="description" content="A text-based roleplaying game based on Red Dwarf, and played on OngoingWorlds">
+
 
     <!-- Facebook js sdk for social plugin -->
 
