@@ -1,0 +1,50 @@
+.btn__small {
+    font-size:50%;
+    display: block;
+}
+
+
+
+
+.joinBtn,
+a.joinBtn {
+    color:$text-light;
+    display:block;
+    border-radius: 0;
+    padding:10px 20px;
+    font-size:150%;
+    transition: color $transition-time, background $transition-time;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $tall-font;
+    text-align: center;
+
+    &:hover,
+    &:focus {
+        background:$alt-color;
+        color:$text-dark;
+        text-decoration: none;
+    }
+
+    &--lg {
+        font-size:2.5em;
+    }
+}
+
+.joinBtnWrapper {
+    padding:2px;
+    border: 2px solid $text-light;
+    display:block;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+@media (min-width: $screen-sm-min) {
+
+    .joinBtn,
+    a.joinBtn,
+    .joinBtnWrapper {
+        display:inline-block;
+    }
+}

@@ -8,18 +8,13 @@ Global styles
 ========================================================= */
 
 body {
-    color:$text-dark;
+    color:$text-normal;
     background:#000;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: arial, sans-serif;
     font-size: 14px;
 
 }
 
-@media (min-width: $screen-sm-min) {
-    body {
-        font-size: 22px;
-    }
-}
 h1,
 h2,
 h3 {
@@ -27,33 +22,36 @@ h3 {
     text-transform: uppercase;
     margin:0 0 22px;
     font-weight: bold;
-}
-.section-title {
-    color:#4d4d4d;
-    font-size:1.4em;
-    text-align: right;
-    margin:0;
-    text-transform: uppercase;
-    font-weight: bold;
+    font-family: $tall-font;
 }
 
-.sub-title {
-    color:#4d4d4d;
-    text-align: right;
-    text-transform: uppercase;
-    border-bottom:7px solid #eaeaea;
-    padding-bottom:10px;
-    font-size:80%;
-    font-weight: bold;
-}
 
 p {
     margin-bottom:25px;
 }
 
+ul {
+    margin:0 0 30px;
+}
+
+li {
+    margin: 0 0 10px;
+}
+
+a,
+a:visited {
+    color: $orange;
+}
+
+a:hover,
+a:active {
+
+}
+
 .large-text {
-    font-size: 125%;
     text-transform: uppercase;
+    font-size:22px;
+    font-family: $tall-font;
 }
 
 .container-fluid {
@@ -71,7 +69,7 @@ p {
 
     > .container-fluid {
         padding-top:35px;
-        padding-bottom:30px;
+//        padding-bottom:30px;
     }
 
     &.container-wrapper--dark {
@@ -79,7 +77,9 @@ p {
         border-top:4px solid #666;
         color:$text-light;
     }
+
 }
+
 
 
 .bg {
@@ -100,6 +100,52 @@ p {
     background: $alt-color; /* Gecko Browsers */
 }
 
+.page + .page {
+    margin-top:40px;
+}
+
+/* ======================================================
+Section titles
+========================================================= */
+
+.section-title {
+    color:#4d4d4d;
+    font-size:2em;
+    text-align: center;
+    margin:0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: $tall-font;
+
+    .container-wrapper--dark & {
+        color:#fff;
+    }
+
+}
+
+.sub-title {
+    color:#999;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom:7px solid #eaeaea;
+    padding-bottom:10px;
+    font-size:1.2em;
+    font-family: $tall-font;
+
+    .container-wrapper--dark & {
+        border-color:transparentize(#fff,0.85);
+    }
+}
+
+@media (min-width: $screen-sm-min) {
+    .section-title {
+        text-align: right;
+    }
+
+    .sub-title {
+        text-align: right;
+    }
+}
 
 
 /* ======================================================
@@ -144,25 +190,3 @@ Specific layouts
 
 @import "layouts/home";
 
-
-.parallax {
-    perspective: 1px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    background: cyan;
-}
-.parallax__layer {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: red;
-}
-.parallax__layer--base {
-    transform: translateZ(0);
-    background: yellow;
-}
-.parallax__layer--back {
-    transform: translateZ(-1px);
-}

@@ -17,6 +17,13 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <meta property="og:title" content="Blue Dwarf" />
+    <meta property="og:site_name" content="Blue Dwarf" />
+    <meta property="og:description" content="A text-based roleplaying game based on Red Dwarf" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://bluedwarf.co.uk" />
+    <meta property="og:image" content="http://bluedwarf.co.uk/images/fb-like.jpg" />
+
     <!-- Facebook js sdk for social plugin -->
 
     <div id="fb-root"></div>
@@ -28,8 +35,8 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
 
-    <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
-
+<!--    <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>-->
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 

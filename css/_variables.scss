@@ -9,14 +9,18 @@ $images-path: "/images";
 /* ======================================================
 Style variables
 ========================================================= */
+
+$orange: #FFC01C;
 $alt-color: #ffe154;
 $text-light:#fff;
-$text-normal:$text-light;
+$text-normal:#4d4d4d;
 $text-dark:#213163;
 $bg-dark: #213163 url(#{$images-path}/bluemetal.jpg) repeat;
 $bg-light: #fff;
 $default-padding: 15px;
 $transition-time:200ms;
+
+$tall-font: 'Oswald', sans-serif;
 
 /* ======================================================
 Break points
