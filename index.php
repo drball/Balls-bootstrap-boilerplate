@@ -47,7 +47,7 @@
                     <div class="caption__imgWrapper">
                         <img
                             class="thumbnail" title="D-droom"
-                            src="http://bluedwarf.co.uk/wp-content/uploads/2012/03/D-droom-150x150.jpg" alt="Drive Room"
+                            src="/images/D-droom-150x150.jpg" alt="Drive Room"
                             width="150" height="150">
                     </div>
 
@@ -67,7 +67,7 @@
                     <div class="caption__imgWrapper">
                         <img
                             class="thumbnail" title="MahonPointShoppingCentre"
-                            src="http://bluedwarf.co.uk/wp-content/uploads/2012/03/MahonPointShoppingCentre-150x150.jpg"
+                            src="/images/MahonPointShoppingCentre-150x150.jpg"
                             alt="Promenade" width="150" height="150">
                     </div>
 
@@ -87,7 +87,7 @@
 
                     <div class="caption__imgWrapper">
                         <img class="thumbnail" title="parrotts"
-                             src="http://bluedwarf.co.uk/wp-content/uploads/2012/03/parrotts-150x150.jpg" alt="Parrotts bar"
+                             src="/images/parrotts-150x150.jpg" alt="Parrotts bar"
                              width="150" height="150">
                     </div>
 
@@ -104,7 +104,7 @@
 
                     <div class="caption__imgWrapper">
                         <img class="thumbnail" title="shuttlebay"
-                             src="http://bluedwarf.co.uk/wp-content/uploads/2012/03/shuttlebay1-150x150.jpg"
+                             src="/images/shuttlebay1-150x150.jpg"
                              alt="Blue Midgets" width="150" height="150">
                     </div>
 
@@ -125,7 +125,7 @@
                     <div class="caption__imgWrapper">
                         <img
                             class="thumbnail" title="medibay"
-                            src="http://bluedwarf.co.uk/wp-content/uploads/2012/03/medibay-150x150.jpg"
+                            src="/images/medibay-150x150.jpg"
                             alt="Medical beds" width="150" height="150">
                     </div>
 
@@ -146,7 +146,7 @@
                     <div class="caption__imgWrapper">
                         <img
                             class="thumbnail" title="main reactor"
-                            src="http://bluedwarf.co.uk/wp-content/uploads/2012/03/main-reactor-150x150.jpg"
+                            src="/images/main-reactor-150x150.jpg"
                             alt="Main reactor" width="150" height="150">
                     </div>
 
@@ -177,7 +177,7 @@
                     <div class="caption__imgWrapper">
                         <img
                             class="thumbnail" title="EdenPROJECT"
-                            src="http://bluedwarf.co.uk/wp-content/uploads/2012/03/EdenPROJECT-150x150.jpg"
+                            src="/images/EdenPROJECT-150x150.jpg"
                             alt="Arboretum" width="150" height="150">
                     </div>
 
